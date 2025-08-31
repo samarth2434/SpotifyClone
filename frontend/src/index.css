@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-black;
+}
+
+.auth-input{
+    @apply W-full p-3 bg-gray-800 rounded-md border border-gray-700
+    focus:outline-none focus:border-gray-500;
+}
+
+.auth-btn {
+  @apply w-full bg-green-500 hover:bg-green-400 text-black font-semibold p-3 rounded-full;
+}
+
+*::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.1rem;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2e2d2b;
+}
