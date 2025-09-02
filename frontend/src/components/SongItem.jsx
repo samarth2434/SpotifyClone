@@ -47,4 +47,4 @@ const SongItem = ({ image, name, desc, id }) => {
   );
 };
 
-export default SongItem;
+export default SongItem; 
