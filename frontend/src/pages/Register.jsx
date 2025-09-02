@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { UserData } from "../context/user";
+import { UserData } from "../context/User";
 import { SongData } from "../context/Song";
 
 const Register = () => {
